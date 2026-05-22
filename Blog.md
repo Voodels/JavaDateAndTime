@@ -84,6 +84,18 @@ The diagram below outlines the core interfaces and classes built to handle both 
             why : immutables 
 
 
+## Code navigation
+
+The intro ends here. Use these links to jump into each subtopic folder with a short blog note and code.
+
+1. `now()` basics - [examples/now/README.md](examples/now/README.md) (code: [examples/now/NowExample.java](examples/now/NowExample.java#L9-L21))
+2. `of()` factory methods and enums - [examples/ofmethods/README.md](examples/ofmethods/README.md) (code: [examples/ofmethods/OfMethodsExample.java](examples/ofmethods/OfMethodsExample.java#L10-L22))
+3. ZoneId and ZonedDateTime - [examples/zoneid/README.md](examples/zoneid/README.md) (code: [examples/zoneid/ZoneIdExample.java](examples/zoneid/ZoneIdExample.java#L8-L17))
+4. ZoneOffset and OffsetDateTime - [examples/zoneoffset/README.md](examples/zoneoffset/README.md) (code: [examples/zoneoffset/ZoneOffsetExample.java](examples/zoneoffset/ZoneOffsetExample.java#L8-L17))
+5. Period vs Duration - [examples/periodduration/README.md](examples/periodduration/README.md) (code: [examples/periodduration/PeriodDurationExample.java](examples/periodduration/PeriodDurationExample.java#L11-L24))
+6. ChronoUnit differences - [examples/chronounit/README.md](examples/chronounit/README.md) (code: [examples/chronounit/ChronoUnitExample.java](examples/chronounit/ChronoUnitExample.java#L10-L23))
+7. Formatting and parsing - [examples/formatting/README.md](examples/formatting/README.md) (code: [examples/formatting/FormattingExample.java](examples/formatting/FormattingExample.java#L8-L18))
+
 ## Creating Date and / Time Objects 
 - no public constructor so no new keyword
 - so how do we create these 
